@@ -1,7 +1,7 @@
-# Conway's Game of Life - Implementare în C
+# Conway's Game of Life - Implementare în Assembly x86
 
 ## 📖 Descriere
-Acest proiect reprezintă o implementare a celebrului **Conway's Game of Life**, realizată în cadrul materiei **Arhitectura Sistemelor de Calcul**. Scopul proiectului a fost de a pune în practică concepte fundamentale legate de **procesarea paralelă, optimizarea performanței și manipularea memoriei** folosind limbajul C.
+Acest proiect reprezintă o implementare a celebrului **Conway's Game of Life**, realizată în cadrul materiei **Arhitectura Sistemelor de Calcul**. Scopul proiectului a fost de a pune în practică concepte fundamentale legate de **procesarea paralelă, optimizarea performanței și manipularea memoriei** folosind limbajul Assembly.
 
 Proiectul a fost împărțit în trei probleme distincte, iar eu am realizat **prima și a treia problemă**, acestea fiind strâns corelate între ele. **Prima problemă** a presupus crearea și rularea unui simulator pentru **Game of Life**, iar **a treia problemă** a adus îmbunătățiri și optimizări pe baza celei dintâi.
 
@@ -24,7 +24,6 @@ Proiectul a fost împărțit în trei probleme distincte, iar eu am realizat **p
 ---
 
 ## 🛠 **Tehnologii și concepte utilizate**
-- **Limbajul C** - Implementarea eficientă a algoritmului și manipularea memoriei.
 - **Programare de nivel jos** - Optimizarea accesului la memorie și reducerea latențelor.
 - **Algoritmi pentru procesare matricială** - Aplicarea regulilor de tranziție pentru celule.
 - **Structuri de date eficiente** - Stocarea și accesarea rapidă a grilei de simulare.
