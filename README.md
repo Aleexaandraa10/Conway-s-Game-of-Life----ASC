@@ -1,46 +1,44 @@
-# Conway's Game of Life - Implementare în Assembly x86
+# **Conway's Game of Life - x86 Assembly Implementation**  
 
-## 📖 Descriere
-Acest proiect reprezintă o implementare a celebrului **Conway's Game of Life**, realizată în cadrul materiei **Arhitectura Sistemelor de Calcul**. Scopul proiectului a fost de a pune în practică concepte fundamentale legate de **procesarea paralelă, optimizarea performanței și manipularea memoriei** folosind limbajul Assembly.
+## 📖 **Description**  
+This project is an implementation of the famous **Conway’s Game of Life**, developed as part of the **Computer Architecture** course. The goal was to apply fundamental concepts related to **parallel processing, performance optimization, and memory manipulation** using Assembly language.  
 
-Proiectul a fost împărțit în trei probleme distincte, iar eu am realizat **prima și a treia problemă**, acestea fiind strâns corelate între ele. **Prima problemă** a presupus crearea și rularea unui simulator pentru **Game of Life**, iar **a treia problemă** a adus îmbunătățiri și optimizări pe baza celei dintâi.
-
----
-
-## 🚀 **Funcționalități implementate**
-### ✅ **Problema 1: Implementarea de bază a Game of Life**
--  **Inițializarea unei grile** de dimensiune variabilă cu celule vii și moarte.
--  **Aplicarea regulilor de evoluție** pe baza stării vecinilor.
--  **Simularea mai multor generații** pentru a observa dinamica populației celulare.
--  **Afișarea în terminal** a grilei la fiecare pas de simulare.
--  **Citirea datelor de intrare** dintr-un fișier predefinit.
-
-### ✅ **Problema 3: Optimizarea și Extinderea Simulării**
--  **Optimizări de performanță** prin utilizarea unor structuri de date eficiente.
--  **Implementarea unei versiuni optimizate** care reduce timpii de execuție.
--  **Folosirea de tehnici low-level pentru manipularea memoriei**, accelerând simularea.
--  **Explorarea paralelizării** pentru rularea mai rapidă a simulării pe mai multe nuclee.
+The project was divided into three distinct problems, and I implemented **Problem 1 and Problem 3**, which are closely related. **Problem 1** involved creating and running a **Game of Life simulator**, while **Problem 3** focused on improving and optimizing the initial implementation.  
 
 ---
 
-## 🛠 **Tehnologii și concepte utilizate**
-- **Programare de nivel jos** - Optimizarea accesului la memorie și reducerea latențelor.
-- **Algoritmi pentru procesare matricială** - Aplicarea regulilor de tranziție pentru celule.
-- **Structuri de date eficiente** - Stocarea și accesarea rapidă a grilei de simulare.
+## 🚀 **Implemented Features**  
+### ✅ **Problem 1: Basic Game of Life Implementation**  
+- **Initializing a grid** of variable size with live and dead cells.  
+- **Applying evolution rules** based on the state of neighboring cells.  
+- **Simulating multiple generations** to observe cellular population dynamics.  
+- **Displaying the grid in the terminal** at each simulation step.  
+- **Reading input data** from a predefined file.  
+
+### ✅ **Problem 3: Optimization & Simulation Enhancements**  
+- **Performance optimizations** using efficient data structures.  
+- **Implementing an optimized version** that reduces execution time.  
+- **Using low-level memory manipulation techniques** to speed up the simulation.  
+- **Exploring parallelization** to run the simulation faster on multiple cores.  
 
 ---
 
-## 🔧 **Cum se rulează proiectul**
-1. **Compilează codul folosind `gcc`:**
+## 🛠 **Technologies & Concepts Used**  
+- **Low-level programming** - Optimizing memory access and reducing latency.  
+- **Matrix processing algorithms** - Applying transition rules to cells.  
+- **Efficient data structures** - Fast storage and retrieval of simulation grids.  
+
+---
+
+## 🔧 **How to Run the Project**  
+1. **Compile the code using `gcc`:**  
    ```sh
    gcc -o game_of_life problem1.c
    gcc -o game_of_life_opt problem3.c
-   ```
-2. **Rulează simularea:**
+   ```  
+2. **Run the simulation:**  
    ```sh
    ./game_of_life input.txt
    ./game_of_life_opt input.txt
-   ```
-3. **Observă evoluția celulelor în terminal.**
-
-
+   ```  
+3. **Observe the evolution of cells in the terminal.**  
